@@ -1,6 +1,15 @@
-const f = (a) => {
-  return "hello " + a;
-};
+class Str {
+  constructor(val) {
+    this.val = val;
+    this.itung = (() => {
+      let count = 0;
+      for (const i in val) {
+        count++;
+      }
+      return count;
+    })();
+  }
+}
 
-const a = f;
-console.log(a("fahmi"));
+const myName = new Str("hel");
+console.log(myName.length);
