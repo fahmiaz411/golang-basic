@@ -12,7 +12,7 @@ func (p *Person) Married(val bool) {
 	}
 }
 
-func main() {
+func init() {
 
 	var person = Person{
 		Name: "fahmi",
