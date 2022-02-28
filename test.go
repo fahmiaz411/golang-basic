@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	// "golang-basic/database"
-	// "golang-basic/helper"
+	_ "golang-basic/pack"
+	"os"
 )
 
 // type Data struct{
@@ -17,5 +17,5 @@ func main() {
 	// fmt.Println(data, helper.Other(), helper.Version)
 	// fmt.Println(database.GetConnection(), database.Sample)
 
-	fmt.Println()
+	fmt.Println(os.Args)
 }
