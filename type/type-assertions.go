@@ -12,7 +12,7 @@ func random() interface{} {
 
 }
 
-func main() {
+func init() {
 	result := random()
 	var res interface{}
 	switch result.(type){

@@ -7,6 +7,6 @@ func run(val interface{}) interface{} {
 }
 
 
-func main() {
+func init() {
 	fmt.Println(run(1))
 }
