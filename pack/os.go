@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-func init() {
+func Os() {
 	args := os.Args
 	fmt.Println(args)
 }

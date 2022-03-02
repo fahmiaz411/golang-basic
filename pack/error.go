@@ -13,7 +13,7 @@ func Divider(val int, div int ) (int, error) {
 	}
 }
 
-func init (){
+func Error (){
 	val, err:= Divider(10,2)
 	if val == 0 {
 

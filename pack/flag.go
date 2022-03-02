@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-func init() {
+func Flags() {
 	host := flag.String("host", "root", "Put host")
 	flag.Parse()
 	fmt.Println(*host)
