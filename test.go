@@ -2,12 +2,20 @@ package main
 
 import (
 	// "fmt"
-	"golang-basic/pack"
+	"fmt"
+	_ "golang-basic/pack"
 )
 
 
 func main() {
 
-	pack.Regex()
+	var array = []interface{}{
+		"yo",
+		1,
+		true,
+	}
+
+	array2 := append(array, "hey")
+	fmt.Println(array2, array)
 
 }
