@@ -1,0 +1,4 @@
+github.com/fahmiaz411/go-zipper v1.0.0 h1:X29Hx01cQoN818RvyZCz3jnaw4fRW93wu2WDo1uwYRs=
+github.com/fahmiaz411/go-zipper v1.0.0/go.mod h1:KoLU49/tVhwvYdvOT6WBiBC910JTSFxZeEHEVDLvmUc=
+github.com/fahmiaz411/sliceconv v1.1.0 h1:ALKwjTlP8eJiPHMdWZ4+nbIspUxZy1uzi0OuRRIAJw0=
+github.com/fahmiaz411/sliceconv v1.1.0/go.mod h1:mSvkw7iwNl2jOiGjrjkBJKSrLkekACusTCqtumde12k=
